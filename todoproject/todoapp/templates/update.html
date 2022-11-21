@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="POST" style="border:1px solid blue;background-color:#ad717c;width:250px;height:260px;margin-left:200px;color:white;">
+    {% csrf_token %}
+    <h2 style="color:white;padding-left:50px;">Update Form</h2>
+    {{form.as_p}}
+    <button type="submit" style="background-color:#57393f;color:#d4c9cb;margin-left:86px;margin-top:25px;">Confirm</button>
+</form>
+</body>
+</html>

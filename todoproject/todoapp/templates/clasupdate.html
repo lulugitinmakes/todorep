@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">
+            <h2 style="color:blue"><i>Update the Task</i></h2>
+        </div>
+        <form method="post" >
+            {% csrf_token %}
+            <button type="submit"> Update </button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
